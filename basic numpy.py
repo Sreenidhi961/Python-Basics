@@ -1,0 +1,13 @@
+import numpy as np
+arr1 = np.arange(10, 31, 2)
+print("Even numbers from 10 to 30:")
+print(arr1)
+arr2 = np.zeros((3, 4))
+print("\n3×4 array of zeros:")
+print(arr2)
+arr3 = np.eye(4)
+print("\n4×4 identity matrix:")
+print(arr3)
+arr4 = np.linspace(0, 5, 8)
+print("\n8 equally spaced numbers between 0 and 5:")
+print(arr4)

@@ -1,0 +1,10 @@
+product_name = input ("Enter Product Name: ")
+quantity = int (input ("Enter Quantity: "))
+price = float(input("Enter Price per Item: "))
+subtotal = quantity * price
+tax = subtotal * 0.05
+final_amount = subtotal + tax
+print ("Product Name =", product_name)
+print("Subtotal =", subtotal)
+print("Tax (5%) =", tax)
+print ("Final Payable Amount =", final_amount)

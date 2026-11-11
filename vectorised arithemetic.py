@@ -1,0 +1,11 @@
+import numpy as np
+x = np.array([4, 8, 12, 16])
+y = np.array([2, 3, 4, 5])
+print("x + y:")
+print(x + y)
+print("\nx * y:")
+print(x * y)
+print("\nx ** 2:")
+print(x ** 2)
+print("\nsquare root of x:")
+print(np.sqrt(x))

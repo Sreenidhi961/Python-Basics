@@ -1,0 +1,9 @@
+length = float (input ("Enter the length of the classroom: "))
+breadth = float (input ("Enter the breadth of the classroom: "))
+cost_per_sq_m = float (input ("Enter flooring cost per square metre:"))
+area = length * breadth
+perimeter = 2 * (length + breadth)
+total_cost = area * cost_per_sq_m
+print(f"Area = {area:.2f} square metres")
+print (f"Perimeter = {perimeter:.2f} metres")
+print (f"Total Flooring Cost = {total_cost:.2f}")
